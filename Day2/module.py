@@ -1,4 +1,4 @@
-f = open("data.txt")
+f = open("Day2/data.txt")
 
 lines = f.read()
 data = lines.split("\n")
