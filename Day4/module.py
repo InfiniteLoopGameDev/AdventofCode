@@ -99,9 +99,3 @@ for i in nums:
                                             count0 += int(grids[lastGrid][q][r])
                                 score0 = count0 * lastNum
                                 print("Score was: {}".format(score0))
-                        # break
-    #     if validGrid != -1:
-    #         break
-    # if validGrid != -1:
-    #     break
-
