@@ -1,6 +1,6 @@
 import numpy as np
 
-f = open("data")
+f = open("Day4/data")
 
 lines = f.read()
 data = lines.split("\n")
