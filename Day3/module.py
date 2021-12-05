@@ -4,7 +4,7 @@ f = open("Day3/data")
 
 lines = f.read()
 data = lines.split("\n")
-data.pop(len(data) - 1)
+data.pop(-1)
 count = []
 for a in range(len(data[0])):
     count.append(0)

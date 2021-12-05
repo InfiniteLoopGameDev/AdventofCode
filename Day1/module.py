@@ -6,7 +6,7 @@ f = open("Day1/data")
 
 lines = f.read()
 data = lines.split("\n")
-data.pop(2000)
+data.pop(-1)
 data = np.array(data, dtype='int')
 
 window = []
