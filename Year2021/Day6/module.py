@@ -1,4 +1,4 @@
-f = open("Day6/data")
+f = open("Year2021/Day6/data")
 
 lines = f.read()
 dataStr = lines.split(",")

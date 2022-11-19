@@ -1,7 +1,7 @@
 import re
 import math
 
-f = open("Day8/data")
+f = open("Year2021/Day8/data")
 
 lines = f.read()
 dataStr = lines.split("\n")

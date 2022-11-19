@@ -2,7 +2,7 @@ import numpy as np
 
 count = 0
 
-f = open("Day1/data")
+f = open("Year2021/Day1/data")
 
 lines = f.read()
 data = lines.split("\n")

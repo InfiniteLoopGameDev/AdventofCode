@@ -1,6 +1,6 @@
 import numpy as np
 
-f = open("Day4/data")
+f = open("Year2021/Day4/data")
 
 lines = f.read()
 data = lines.split("\n")

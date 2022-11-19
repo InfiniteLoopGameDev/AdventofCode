@@ -1,6 +1,6 @@
 from multiprocessing import Process, Queue
 
-f = open("Day7/data")
+f = open("Year2021/Day7/data")
 
 lines = f.read()
 dataStr = lines.split(",")
