@@ -14,9 +14,10 @@ cargo_string = \
 [G] [G] [F] [S] [D] [H] [B] [R] [S]
 [D] [N] [S] [D] [H] [G] [J] [J] [G]
 [W] [J] [L] [J] [S] [P] [F] [S] [L]
- 1   2   3   4   5   6   7   8   9 """
+ 1   2   3   4   5   6   7   8   9 
+"""
 
-with open("data5.txt", "r") as file:
+with open("Year2022/Day 5/data", "r") as file:
     raw_data = file.readlines()
 
 data = [re.findall("\d+", i) for i in raw_data]
